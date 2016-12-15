@@ -15,6 +15,9 @@
 		1E74BF131DF91A210045CF29 /* APIRequestManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E74BF121DF91A210045CF29 /* APIRequestManager.swift */; };
 		1E74BF151DF91EED0045CF29 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E74BF141DF91EED0045CF29 /* Element.swift */; };
 		1E74BF171DF929270045CF29 /* ElementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E74BF161DF929270045CF29 /* ElementViewController.swift */; };
+		3AAE012D1E030F66003F5C58 /* NibTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE012C1E030F66003F5C58 /* NibTableViewController.swift */; };
+		3AAE01301E030F8F003F5C58 /* NibTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AAE012E1E030F8F003F5C58 /* NibTableViewCell.swift */; };
+		3AAE01311E030F8F003F5C58 /* NibTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3AAE012F1E030F8F003F5C58 /* NibTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +31,9 @@
 		1E74BF121DF91A210045CF29 /* APIRequestManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIRequestManager.swift; sourceTree = "<group>"; };
 		1E74BF141DF91EED0045CF29 /* Element.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
 		1E74BF161DF929270045CF29 /* ElementViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ElementViewController.swift; sourceTree = "<group>"; };
+		3AAE012C1E030F66003F5C58 /* NibTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibTableViewController.swift; sourceTree = "<group>"; };
+		3AAE012E1E030F8F003F5C58 /* NibTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NibTableViewCell.swift; sourceTree = "<group>"; };
+		3AAE012F1E030F8F003F5C58 /* NibTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NibTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -64,6 +70,9 @@
 				1E74BF101DF919FC0045CF29 /* ElementTableViewController.swift */,
 				1E74BF121DF91A210045CF29 /* APIRequestManager.swift */,
 				1E74BF021DF919B70045CF29 /* Main.storyboard */,
+				3AAE012E1E030F8F003F5C58 /* NibTableViewCell.swift */,
+				3AAE012F1E030F8F003F5C58 /* NibTableViewCell.xib */,
+				3AAE012C1E030F66003F5C58 /* NibTableViewController.swift */,
 				1E74BF051DF919B70045CF29 /* Assets.xcassets */,
 				1E74BF071DF919B70045CF29 /* LaunchScreen.storyboard */,
 				1E74BF0A1DF919B70045CF29 /* Info.plist */,
@@ -133,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				1E74BF091DF919B70045CF29 /* LaunchScreen.storyboard in Resources */,
+				3AAE01311E030F8F003F5C58 /* NibTableViewCell.xib in Resources */,
 				1E74BF061DF919B70045CF29 /* Assets.xcassets in Resources */,
 				1E74BF041DF919B70045CF29 /* Main.storyboard in Resources */,
 			);
@@ -149,7 +159,9 @@
 				1E74BF131DF91A210045CF29 /* APIRequestManager.swift in Sources */,
 				1E74BF111DF919FC0045CF29 /* ElementTableViewController.swift in Sources */,
 				1E74BF151DF91EED0045CF29 /* Element.swift in Sources */,
+				3AAE01301E030F8F003F5C58 /* NibTableViewCell.swift in Sources */,
 				1E74BEFF1DF919B70045CF29 /* AppDelegate.swift in Sources */,
+				3AAE012D1E030F66003F5C58 /* NibTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,7 +227,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -259,7 +271,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -311,6 +323,7 @@
 				1E74BF0F1DF919B70045CF29 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
